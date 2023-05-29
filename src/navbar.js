@@ -32,9 +32,14 @@ const Navbar = () => {
           backgroundColor:"#20419c",
           borderRadius: '8px'
          }}>Image Detection</Link>
+         <Link to="/ChatAI" style={{
+          color: "white",
+          backgroundColor:"#20419c",
+          borderRadius: '8px'
+         }}>ChatAI</Link>
        </div>
       </nav>
      );
 }
- 
+
 export default Navbar;

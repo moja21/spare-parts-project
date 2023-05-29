@@ -9,6 +9,7 @@ import OngoingOrders from "./OngoingOrders";
 import SignUp from "./SignUp";
 import ImageDetection from "./ImageDetection";
 import LoginPage from "./login";
+import ChatAI from "./ChatAI";
 function App() {
   // const [buttonPopup, setbuttonPopup] = useState(false);
 
@@ -38,6 +39,9 @@ function App() {
             </Route>
             <Route path="/ImageDetection">
               <ImageDetection/>
+            </Route>
+            <Route path="/ChatAI">
+              <ChatAI/>
             </Route>
           </Switch>
         </div>
