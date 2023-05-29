@@ -28,14 +28,15 @@ const OngoingOrders = () => {
             {data ? (
                 <div>
                     <div className="Total_Orders">
-                        <p>Total Orders: {data.total_orders}</p>
+                        <h2>Total Orders: {data.total_orders}</h2>
                     </div>
 
 
 
                     {data.ongoing_orders.map((order) => (
                         <div className="OrderPreview" key={order.id}>
-                            <h2>ID: {order.id}</h2>
+                            <link></link>
+                            <h2>Order Number {order.id}</h2>
                             <p>Type: {order.type}</p>
                             <p>Model: {order.model}</p>
                             <p>Spare part: {order.spare_part}</p>

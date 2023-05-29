@@ -82,9 +82,18 @@
   color: #3849e7;
   margin-bottom: 8px;
 }
-.Total_Orders p{
+.Total_Orders h2{
   font-size: 40px;
-  color: #3849e7;
+  color: #373c64;
   margin-bottom: 30px;
+  margin-left: 10px;
   
+}
+.OrderPreview p {
+  font-size: 20px;
+  color: #373c64;
+  margin-bottom: 5px;
+}
+.OrderPreview a{
+  text-decoration: none;
 }

@@ -27,6 +27,11 @@ const Navbar = () => {
           backgroundColor:"#20419c",
           borderRadius: '8px'
          }}>Account</Link>
+          <Link to="/ImageDetection" style={{
+          color: "white",
+          backgroundColor:"#20419c",
+          borderRadius: '8px'
+         }}>Image Detection</Link>
        </div>
       </nav>
      );
